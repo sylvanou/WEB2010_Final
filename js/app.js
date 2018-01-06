@@ -1,7 +1,7 @@
 const dog_api = 'https://dog.ceo/api/breeds/list/all'
 const viewDog = document.querySelector('#viewDog')
 const selectBreed = document.querySelector('#selectBreed')
-let breedImage = document.querySelector('#breedImage')
+const breedImage = document.querySelector('#breedImage')
 
 function getDogBreeds(){
     $.ajax({
